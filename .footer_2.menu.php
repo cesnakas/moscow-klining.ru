@@ -1,0 +1,60 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О компании", 
+		"/o-kompanii/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Оплата", 
+		"/klientam/oplata/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Гарантии", 
+		"/klientam/garantii/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Галерея", 
+		"/klientam/galereya/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отзывы", 
+		"/klientam/otzyvy/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Акции", 
+		"/klientam/aktsii/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Оборудование", 
+		"/o-kompanii/tekhnika/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Моющие средства", 
+		"/o-kompanii/moyushchie-sredstva/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

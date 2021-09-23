@@ -1,0 +1,10 @@
+<div class="container">
+	<div class="p_podp no_home">
+		 Извините, раздел находится в разработке.
+	</div>
+</div>
+<?$APPLICATION->IncludeFile(
+		$APPLICATION->GetTemplatePath("/include/bloki.php"),
+						Array(),
+						Array("MODE"=>"html")
+						);?>

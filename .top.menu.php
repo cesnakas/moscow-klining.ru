@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Клининговые услуги", 
+		"/kliningovye-uslugi/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Цены", 
+		"/tseny/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"О компании", 
+		"/o-kompanii/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Клиентам", 
+		"/klientam/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/kontakty/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

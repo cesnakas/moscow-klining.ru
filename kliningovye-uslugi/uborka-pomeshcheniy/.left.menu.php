@@ -1,0 +1,116 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Срочная", 
+		"/kliningovye-uslugi/srochnaya-uborka-pomeshcheniy/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Послестроительная", 
+		"/kliningovye-uslugi/poslestroitelnaya-uborka-pomeshcheniy/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Влажная", 
+		"/kliningovye-uslugi/vlazhnaya-uborka-pomeshcheniy/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"После пожара", 
+		"/kliningovye-uslugi/uborka-ofisa-posle-pozhara/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Школы", 
+		"/kliningovye-uslugi/uborka-pomeshcheniy/shkoly/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Бизнес центры", 
+		"/kliningovye-uslugi/uborka-pomeshcheniy/biznes-tsentry/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Магазины", 
+		"/kliningovye-uslugi/uborka-pomeshcheniy/magaziny/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Гостиницы", 
+		"/kliningovye-uslugi/uborka-pomeshcheniy/gostinitsy/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Паркинг", 
+		"/kliningovye-uslugi/uborka-pomeshcheniy/parking/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Кафе и рестораны", 
+		"/kliningovye-uslugi/uborka-pomeshcheniy/kafe-i-restorany/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Склады", 
+		"/kliningovye-uslugi/uborka-pomeshcheniy/sklady/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Кинотеатры", 
+		"/kliningovye-uslugi/uborka-pomeshcheniy/kinoteatry/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Промышленные объекты", 
+		"/kliningovye-uslugi/uborka-pomeshcheniy/promyshlennye-obekty/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Торговые центры", 
+		"/kliningovye-uslugi/uborka-pomeshcheniy/torgovye-tsentry/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Салоны красоты", 
+		"/kliningovye-uslugi/uborka-pomeshcheniy/salony-krasoty/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"После мероприятий", 
+		"/kliningovye-uslugi/uborka-pomeshcheniy/posle-meropriyatiy/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

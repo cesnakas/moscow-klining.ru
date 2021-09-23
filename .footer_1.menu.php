@@ -1,0 +1,60 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Уборка офиса", 
+		"/kliningovye-uslugi/uborka-ofisa/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Ежедневная", 
+		"/kliningovye-uslugi/ezhednevnaya-uborka-ofisa", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Генеральная", 
+		"/kliningovye-uslugi/generalnaya-uborka-ofisa/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Утренняя", 
+		"/kliningovye-uslugi/utrennyaya-uborka-ofisa/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Вечерняя", 
+		"/kliningovye-uslugi/vechernyaya-uborka-ofisov/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Комплексная", 
+		"/kliningovye-uslugi/kompleksnaya-uborka-ofisov/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Регулярная", 
+		"/kliningovye-uslugi/regulyarnaya-uborka-ofisov/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Поддерживающая", 
+		"/kliningovye-uslugi/podderzhivayushchaya-uborka-ofisa/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

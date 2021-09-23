@@ -1,0 +1,50 @@
+<div class="preim">
+	<div class="container">
+		<div class="row uslugi267">
+			<div class="col-sm-3">
+				<div class="img">
+ <img width="80" src="/upload/medialibrary/be8/be81f75b4b93fa9dd963181f8150b7bc.png" height="90">
+				</div>
+				<p class="name_uslug">
+					 Доступные цены
+				</p>
+				<p class="text_uslug">
+					 Всего от 20 руб. за кв.м.
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<div class="img">
+ <img alt="2-r.png" src="/upload/medialibrary/be6/be64e37eb1792820ba412116b0c7e5bc.png" title="2-r.png">
+				</div>
+				<p class="name_uslug">
+					 Экономия времени
+				</p>
+				<p class="text_uslug">
+					 Вы сами выбираете график и время работ
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<div class="img">
+ <img src="/upload/medialibrary/55b/55bd0ef4ab10eae8026cf7a745c63df1.png">
+				</div>
+				<p class="name_uslug">
+					 Бригады от двух до 10 человек
+				</p>
+				<p class="text_uslug">
+					 Опыт каждого члена команды от 5 лет в сфере клининга
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<div class="img">
+ <img src="/upload/medialibrary/cda/cdac3b43943c3a26aae3afa480a4900c.png">
+				</div>
+				<p class="name_uslug">
+					 Качество уборки
+				</p>
+				<p class="text_uslug">
+					 Используем спец. средства и оборудование, владеем нюансами
+				</p>
+			</div>
+		</div>
+	</div>
+</div>

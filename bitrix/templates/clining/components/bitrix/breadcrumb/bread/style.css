@@ -1,0 +1,26 @@
+.bx-breadcrumb {
+	margin: 10px 0;
+}
+.bx-breadcrumb i {
+	color: #b5bdc2;
+	line-height: 13px;
+	font-size: 12px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.bx-breadcrumb .bx-breadcrumb-item {
+	float: left;
+	margin-bottom: 10px;
+	white-space: nowrap;
+	line-height: 13px;
+	vertical-align: middle;
+}
+.razd{
+margin: 0 1px 0 3px;
+}
+.bx-breadcrumb .bx-breadcrumb-item span,.bx-breadcrumb .bx-breadcrumb-item a {
+font-size: 13px;
+  color: rgb( 63, 63, 63 );
+}
+.bx-breadcrumb .bx-breadcrumb-item a {border-bottom: none;}
+.bx-breadcrumb .bx-breadcrumb-item a:hover {}

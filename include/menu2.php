@@ -1,0 +1,178 @@
+<p class="footer_title">
+	 Кто мы
+</p>
+ <?$APPLICATION->IncludeComponent(
+	"bitrix:menu",
+	"f_menu_1",
+	Array(
+		"ALLOW_MULTI_SELECT" => "N",
+		"CHILD_MENU_TYPE" => "left",
+		"COMPONENT_TEMPLATE" => "f_menu_1",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO",
+		"DELAY" => "N",
+		"MAX_LEVEL" => "1",
+		"MENU_CACHE_GET_VARS" => array(),
+		"MENU_CACHE_TIME" => "3600",
+		"MENU_CACHE_TYPE" => "Y",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"ROOT_MENU_TYPE" => "footer_2",
+		"USE_EXT" => "N"
+	)
+);?>
+<div class="none">
+	 <?$APPLICATION->IncludeComponent(
+	"altasib:feedback.form", 
+	"zakaz_podrjadchik", 
+	array(
+		"ACTIVE_ELEMENT" => "Y",
+		"ADD_HREF_LINK" => "Y",
+		"ALX_LINK_POPUP" => "Y",
+		"ALX_LOAD_PAGE" => "N",
+		"ALX_NAME_LINK" => "Обратный звонок",
+		"BBC_MAIL" => "",
+		"CAPTCHA_TYPE" => "default",
+		"CATEGORY_SELECT_NAME" => "Выберите категорию",
+		"CHANGE_CAPTCHA" => "N",
+		"CHECKBOX_TYPE" => "CHECKBOX",
+		"CHECK_ERROR" => "N",
+		"COLOR_OTHER" => "#f1f314",
+		"COLOR_SCHEME" => "BRIGHT",
+		"COLOR_THEME" => "",
+		"COMPONENT_TEMPLATE" => "zakaz_podrjadchik",
+		"EVENT_TYPE" => "ALX_FEEDBACK_FORM",
+		"FB_TEXT_NAME" => "Комментарий",
+		"FB_TEXT_SOURCE" => "PREVIEW_TEXT",
+		"FORM_ID" => "1",
+		"IBLOCK_ID" => "1",
+		"IBLOCK_TYPE" => "altasib_feedback",
+		"INPUT_APPEARENCE" => array(
+			0 => "FLOATING_LABELS",
+		),
+		"JQUERY_EN" => "N",
+		"LINK_SEND_MORE_TEXT" => "Отправить ещё одно сообщение",
+		"LOCAL_REDIRECT_ENABLE" => "N",
+		"MASKED_INPUT_PHONE" => array(
+			0 => "PHONE",
+		),
+		"MESSAGE_OK" => "Ваше сообщение было успешно отправлено",
+		"NAME_ELEMENT" => "ALX_DATE",
+		"NOT_CAPTCHA_AUTH" => "N",
+		"POPUP_ANIMATION" => "0",
+		"PROPERTY_FIELDS" => array(
+			0 => "PHONE",
+			1 => "FIO",
+		),
+		"PROPERTY_FIELDS_REQUIRED" => array(
+			0 => "PHONE",
+		),
+		"PROPS_AUTOCOMPLETE_EMAIL" => array(
+		),
+		"PROPS_AUTOCOMPLETE_NAME" => array(
+		),
+		"PROPS_AUTOCOMPLETE_PERSONAL_PHONE" => array(
+		),
+		"PROPS_AUTOCOMPLETE_VETO" => "N",
+		"SECTION_FIELDS_ENABLE" => "N",
+		"SECTION_MAIL_ALL" => "",
+		"SEND_IMMEDIATE" => "Y",
+		"SEND_MAIL" => "N",
+		"SHOW_LINK_TO_SEND_MORE" => "Y",
+		"SHOW_MESSAGE_LINK" => "Y",
+		"USERMAIL_FROM" => "N",
+		"USER_CONSENT" => "Y",
+		"USER_CONSENT_ID" => "1",
+		"USER_CONSENT_INPUT_LABEL" => "Я принимаю условия передачи информации",
+		"USER_CONSENT_IS_CHECKED" => "Y",
+		"USER_CONSENT_IS_LOADED" => "Y",
+		"USE_CAPTCHA" => "N",
+		"WIDTH_FORM" => "350px",
+		"REQUIRED_SECTION" => "N",
+		"ALX_IBLOCK_ELEMENT_LINK" => "",
+		"ALX_POPUP_TITLE" => "",
+		"ADD_LEAD" => "N",
+		"SPEC_CHAR" => "N",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO"
+	),
+	false
+);?> <?$APPLICATION->IncludeComponent(
+	"altasib:feedback.form", 
+	"ochrana", 
+	array(
+		"ACTIVE_ELEMENT" => "Y",
+		"ADD_HREF_LINK" => "N",
+		"ALX_LINK_POPUP" => "Y",
+		"ALX_LOAD_PAGE" => "N",
+		"ALX_NAME_LINK" => "",
+		"BBC_MAIL" => "",
+		"CAPTCHA_TYPE" => "default",
+		"CATEGORY_SELECT_NAME" => "Выберите категорию",
+		"CHANGE_CAPTCHA" => "N",
+		"CHECKBOX_TYPE" => "CHECKBOX",
+		"CHECK_ERROR" => "N",
+		"COLOR_OTHER" => "#f1f314",
+		"COLOR_SCHEME" => "BRIGHT",
+		"COLOR_THEME" => "",
+		"COMPONENT_TEMPLATE" => "ochrana",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO",
+		"EVENT_TYPE" => "ALX_FEEDBACK_FORM",
+		"FB_TEXT_NAME" => "Комментарий",
+		"FB_TEXT_SOURCE" => "PREVIEW_TEXT",
+		"FORM_ID" => "2",
+		"IBLOCK_ID" => "1",
+		"IBLOCK_TYPE" => "altasib_feedback",
+		"INPUT_APPEARENCE" => array(
+			0 => "FLOATING_LABELS",
+		),
+		"JQUERY_EN" => "N",
+		"LINK_SEND_MORE_TEXT" => "Отправить ещё одно сообщение",
+		"LOCAL_REDIRECT_ENABLE" => "N",
+		"MASKED_INPUT_PHONE" => array(
+			0 => "PHONE",
+		),
+		"MESSAGE_OK" => "Ваше сообщение было успешно отправлено",
+		"NAME_ELEMENT" => "ALX_DATE",
+		"NOT_CAPTCHA_AUTH" => "N",
+		"POPUP_ANIMATION" => "0",
+		"PROPERTY_FIELDS" => array(
+			0 => "PHONE",
+			1 => "FIO",
+			2 => "USLUG",
+			3 => "FEEDBACK_TEXT",
+		),
+		"PROPERTY_FIELDS_REQUIRED" => array(
+			0 => "PHONE",
+		),
+		"PROPS_AUTOCOMPLETE_EMAIL" => array(
+		),
+		"PROPS_AUTOCOMPLETE_NAME" => array(
+		),
+		"PROPS_AUTOCOMPLETE_PERSONAL_PHONE" => array(
+		),
+		"PROPS_AUTOCOMPLETE_VETO" => "N",
+		"SECTION_FIELDS_ENABLE" => "N",
+		"SECTION_MAIL_ALL" => "",
+		"SEND_IMMEDIATE" => "Y",
+		"SEND_MAIL" => "N",
+		"SHOW_LINK_TO_SEND_MORE" => "Y",
+		"SHOW_MESSAGE_LINK" => "Y",
+		"USERMAIL_FROM" => "N",
+		"USER_CONSENT" => "Y",
+		"USER_CONSENT_ID" => "1",
+		"USER_CONSENT_INPUT_LABEL" => "Я принимаю условия передачи информации",
+		"USER_CONSENT_IS_CHECKED" => "Y",
+		"USER_CONSENT_IS_LOADED" => "Y",
+		"USE_CAPTCHA" => "N",
+		"WIDTH_FORM" => "350px",
+		"REQUIRED_SECTION" => "N",
+		"ALX_IBLOCK_ELEMENT_LINK" => "",
+		"ALX_POPUP_TITLE" => "",
+		"ADD_LEAD" => "N",
+		"SPEC_CHAR" => "N"
+	),
+	false
+);?>
+</div>
+<br>

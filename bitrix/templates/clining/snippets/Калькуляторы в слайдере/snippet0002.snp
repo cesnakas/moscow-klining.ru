@@ -1,0 +1,23 @@
+<div class="white calc_razdel">
+	<div class="row">
+		<div class="col-sm-4">
+			<p class="podp">
+				Укажите площадь
+			</p>
+			<div class="input-group kol_tovar_plus_minus">
+ <span class="input-group-btn"> <button class="btn value-control minus">-</button> </span> <input type="number" value="0" class="form-control" id="compareid_112" min="0" autofocus="" pattern="[0-9]*" style="text-align: center;"> <span class="input-group-btn"> <button class="btn value-control plus">+</button> </span>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<p class="cena2">
+				<span class="summ_ed">0</span> <i class="fa fa-rub"></i>
+			</p>
+		</div>
+		<div class="col-sm-4">
+			<p class="knopka alx_feedback_popup" id="form_id_FID2">
+				Заказать услугу
+			</p>
+		</div>
+	</div>
+</div>
+<br>

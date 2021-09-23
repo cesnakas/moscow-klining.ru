@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Новости", 
+		"/o-kompanii/novosti/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Вакансии", 
+		"/o-kompanii/vakansii/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Пользовательское соглашение", 
+		"/o-kompanii/polzovatelskoe-soglashenie/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Техника", 
+		"/o-kompanii/tekhnika/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Моющие средства", 
+		"/o-kompanii/moyushchie-sredstva/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

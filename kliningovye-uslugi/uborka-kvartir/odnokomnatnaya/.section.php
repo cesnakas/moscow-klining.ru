@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Однокомнатные";
+$arDirProperties = array(
+
+);
+?>
