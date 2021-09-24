@@ -48,7 +48,12 @@ $this->setFrameMode(true);
 			<?endif;?>
 		<?endif;?>
 		<?if($arParams["DISPLAY_PREVIEW_TEXT"]!="N" && $arItem["PREVIEW_TEXT"]):?>
-	<div><?echo $arItem["PREVIEW_TEXT"];?></div>
+	    <!--<div><?/*echo $arItem["PREVIEW_TEXT"];*/?></div>-->
+
+            <div>
+				<?=$oneSentence = strstr($arItem["PREVIEW_TEXT"], ".", true) ?? $arItem["PREVIEW_TEXT"]?>
+            </div>
+
 		<?endif;?>
 		</div>
 	</div>
