@@ -1,9 +1,11 @@
-<?
+<?php
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("TITLE", "Полезные статьи | клининговая компания \"Чистый Офис\"");
 $APPLICATION->SetPageProperty("description", "Полезные статьи | клининговая компания \"Чистый Офис\"");
 $APPLICATION->SetTitle("Статьи");
-?><div class="container">
+?>
+
+<div class="container">
 <?$APPLICATION->IncludeComponent("bitrix:news", "stati", Array(
 	"ADD_ELEMENT_CHAIN" => "Y",	// Включать название элемента в цепочку навигации
 		"ADD_SECTIONS_CHAIN" => "N",	// Включать раздел в цепочку навигации
@@ -66,7 +68,7 @@ $APPLICATION->SetTitle("Статьи");
 		"PAGER_SHOW_ALWAYS" => "N",	// Выводить всегда
 		"PAGER_TEMPLATE" => ".default",	// Шаблон постраничной навигации
 		"PAGER_TITLE" => "Статьи",	// Название категорий
-		"PREVIEW_TRUNCATE_LEN" => "",	// Максимальная длина анонса для вывода (только для типа текст)
+		"PREVIEW_TRUNCATE_LEN" => "", // Максимальная длина анонса для вывода (только для типа текст)
 		"SEF_FOLDER" => "/klientam/stati/",	// Каталог ЧПУ (относительно корня сайта)
 		"SEF_MODE" => "Y",	// Включить поддержку ЧПУ
 		"SEF_URL_TEMPLATES" => array(
@@ -94,4 +96,7 @@ $APPLICATION->SetTitle("Статьи");
 	false
 );?>
 </div>
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+
+<?php
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
+?>
