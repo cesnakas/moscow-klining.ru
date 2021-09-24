@@ -41,7 +41,9 @@ $this->setFrameMode(true);
 
 	<!--<div class='clear'><?/*=$arItem["PREVIEW_TEXT"];*/?></div>-->
 		<?endif;?>
+    <?/*
 	<p class='link_267'><a href='<?=$arItem["DETAIL_PAGE_URL"]?>'>Подробнее</a></p>
+	*/?>
 		</div>
 	</div>
 <?endforeach;?>
