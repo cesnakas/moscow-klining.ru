@@ -429,7 +429,7 @@
     <?endif;?>
 <?		echo bitrix_sessid_post()?>
 		<div class="afbf_submit_block">
-			<input type="submit" class="fb_close afbf_btn" id="fb_close_<?=$ALX?>" name="SEND_FORM" value="Отправить расчет" />
+            <input type="submit" class="fb_close afbf_btn" id="fb_close_<?=$ALX?>" name="SEND_FORM" onclick="ym(46168248, 'reachGoal', 'perezvonit'); return true;" value="Отправить расчет" />
 		</div>
 	</form>
 	

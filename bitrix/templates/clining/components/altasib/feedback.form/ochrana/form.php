@@ -430,7 +430,7 @@
     <?endif;?>
 <?		echo bitrix_sessid_post()?>
 		<div class="afbf_submit_block">
-			<input type="submit" class="fb_close afbf_btn" id="fb_close_<?=$ALX?>" name="SEND_FORM" value="Заказать услугу" />
+            <input id="fb_close_<?=$ALX?>" class="fb_close afbf_btn" type="submit" name="SEND_FORM" onclick="ym(46168248, 'reachGoal', 'perezvonit'); return true;" value="Заказать услугу" />
 		</div>
 	</form>
 	
