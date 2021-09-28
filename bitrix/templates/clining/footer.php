@@ -175,35 +175,6 @@ $APPLICATION->ShowHeadScripts();
 <script src="<?=SITE_TEMPLATE_PATH?>/carusel/owl.carousel.min.js"></script>
 <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/fancybox/jquery.fancybox.pack.js"></script>
 
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter46168248 = new Ya.Metrika({
-                    id:46168248,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div></div></noscript>
-<!-- /Yandex.Metrika counter -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QPXRRC370H"></script>
 <script>
